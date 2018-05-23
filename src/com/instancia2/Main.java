@@ -1,5 +1,8 @@
 package com.instancia2;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class Main {
 
     /**
@@ -39,7 +42,7 @@ public class Main {
     }
 
     /**
-     *
+     * Dado un número calcula su cuadrado
      * @param a -> Numero para calcular el cuadrado
      * @return -> Resultado de la operacion
      *
@@ -50,5 +53,9 @@ public class Main {
         resultado = a * a;
 
         return resultado;
+    }
+
+    static void DameAlgo(ArrayList<HashMap> hInfo){
+
     }
 }
