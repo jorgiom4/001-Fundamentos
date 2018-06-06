@@ -158,16 +158,19 @@ public class Bucles {
      número de iteraciones que debemos realizar.
      */
     public void SacaValorDeArray(){
+
+        System.out.println("\nSacar Valor Array Ejercicio 6");
+
         int myArray[] = {1,2,3,-4,5,6,7};
-        int numero = 0;
         int i = 0;
-        int iTotal = 0;
-        do{
-            numero = myArray[i];
 
-            System.out.println("Valor de numero: " + numero);
+        while(myArray[i] > 0 && i < myArray.length){
+            System.out.println("Valor de la posicion de myArray es: " + myArray[i]);
+            i++;
+        }
 
-        }while(numero %2 == 0);
+        System.out.println("Valor del numero negativo encontrado: " + myArray[i] + " en la posicion: " + (i + 1));
+        System.out.println("Total de numeros recuperados: " + (i + 1));
 
     }
 
