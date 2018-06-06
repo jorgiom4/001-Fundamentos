@@ -49,6 +49,12 @@ public class Main {
 
         Bucles bucles = new Bucles();
         bucles.BucleFor();
+        bucles.CalcularFactorial();
+        bucles.BucleForEach();
+        bucles.SumaElementosArray();
+        bucles.BucleWhile();
+        //bucles.BucleDoWhile();
+        bucles.SacaValorDeArray();
 
     }
 
